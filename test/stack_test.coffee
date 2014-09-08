@@ -5,6 +5,8 @@ describe 'stack test', ->
     assert.ok do stack.isEmpty
     wrapper = -> do stack.pop
     assert.throws wrapper, 'stack is empty'
+    wrapper = -> do stack.peek
+    assert.throws wrapper, 'stack is empty'
     assert.equal 1, stack.push 10
     assert.equal 1, do stack.size
     assert.notOk do stack.isEmpty

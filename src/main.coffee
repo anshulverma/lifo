@@ -12,10 +12,10 @@ class Stack
     do @size is 0
 
   peek: ->
+    checkState not do @isEmpty, 'stack is empty'
     @stack[@stack.length - 1]
 
   pop: ->
-    checkState not do @isEmpty, 'stack is empty'
     element = do @peek
     @stack = @stack.slice 0, @stack.length - 1
     debug "poped: #{element}"
