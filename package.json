@@ -1,6 +1,6 @@
 {
   "name": "lifo",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A Last In First Out (stack) implementation",
   "private": false,
   "author": "Anshul Verma <anshul.verma86@gmail.com>",
