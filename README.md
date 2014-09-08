@@ -56,6 +56,14 @@ console.log(lifo.size());  // 2
 console.log(lifo.pop());   // 100
 ```
 
+## Debug
+
+If you want to enable debug output for this module, just set environment
+variable `DEBUG` to `"lifo"`. This will print log messages that might
+look like this (taken from the test output of this module):
+
+![Sample debug output](https://raw.githubusercontent.com/anshulverma/lifo/master/docs/images/debug-sample.png "Sample of debug output")
+
 ## Building
 
 To get the js source generated form coffee script:
