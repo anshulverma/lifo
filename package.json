@@ -43,6 +43,7 @@
     "grunt",
     "collections",
     "stack",
+    "data-structure",
     "coverage"
   ],
   "engines": {
